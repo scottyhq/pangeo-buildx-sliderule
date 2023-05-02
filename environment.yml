@@ -1,8 +1,29 @@
-name: notebook
+name: sliderule_env
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - geopandas
+  - h5py
+  - ipykernel
+  - ipywidgets
+  - ipyleaflet
   - jupyterlab
-  - nbgitpuller
-  - xarray
+  - jupyterlab_widgets
+  - matplotlib
+  - ipympl
+  - numpy
+  - pandas
+  - pip
+  - pyproj
+  - pytables
+  - pytest
+  - python
+  - requests
+  - scikit-learn
+  - scipy
+  - setuptools_scm
+  - shapely
+  - tk
+  - xyzservices
+  - pyarrow
+  - sliderule
