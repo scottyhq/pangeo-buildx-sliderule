@@ -6,7 +6,7 @@ on:
       - '**/README.md'
 
 permissions:
-  packages: read/write
+  packages: write
 
 concurrency:
   group: "builds"
