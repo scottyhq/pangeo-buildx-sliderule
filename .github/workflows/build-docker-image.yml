@@ -5,6 +5,13 @@ on:
     paths-ignore:
       - '**/README.md'
 
+permissions:
+  packages: read/write
+
+concurrency:
+  group: "builds"
+  cancel-in-progress: true
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
