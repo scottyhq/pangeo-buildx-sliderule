@@ -1,5 +1,6 @@
 # pangeo-buildx-template
-[![build-and-push](https://github.com/scottyhq/pangeo-buildx-template/actions/workflows/build-docker-image.yml/badge.svg)](https://github.com/scottyhq/pangeo-buildx-template/actions/workflows/build-docker-image.yml)
+[![build-and-push](https://github.com/scottyhq/pangeo-buildx-sliderule/actions/workflows/build-docker-image.yml/badge.svg)](https://github.com/scottyhq/pangeo-buildx-sliderule/actions/workflows/build-docker-image.yml)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/scottyhq/pangeo-buildx-sliderule?quickstart=1)
 
 template for quickly creating public docker images
 
