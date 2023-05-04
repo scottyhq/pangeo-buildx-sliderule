@@ -4,7 +4,7 @@
 	    8888
 	  ],
 	
-        "postCreateCommand": "jupyter-lab --ServerApp.allow_origin=* --ip 0.0.0.0 --no-browser &",
+        // "postCreateCommand": "jupyter-lab --ServerApp.allow_origin=* --ip 0.0.0.0 --no-browser &",
     	
 	// VSCode Extensions
 	 "extensions": [
