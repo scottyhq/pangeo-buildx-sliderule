@@ -1,5 +1,9 @@
 {
 	"name": "SlideRule",
 	"image": "ghcr.io/scottyhq/pangeo-buildx-sliderule:latest",
-	"postCreateCommand": "jupyter lab --ip 0.0.0.0"
+	  "forwardPorts": [
+	    8888
+	  ]
+	// "onCreateCommand": "jupyter lab --ip 0.0.0.0"
+	// "postCreateCommand": "jupyter lab --ip 0.0.0.0"
 }
