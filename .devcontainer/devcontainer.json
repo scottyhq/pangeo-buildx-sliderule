@@ -3,18 +3,19 @@
 	  "forwardPorts": [
 	    8888
 	  ],
-	"postCreateCommand": "jupyter lab --ip 0.0.0.0",
+	
+        "postCreateCommand": "jupyter-lab --ServerApp.allow_origin=* --ip 0.0.0.0 --no-browser &",
     	
 	// VSCode Extensions
 	 "extensions": [
           "ms-vscode.remote-explorer"
     	  ],	
        
-       // https://containers.dev/features
+       // Experimenting with https://containers.dev/features
        "features": {
           "ghcr.io/devcontainers/features/git:1": {},
-          "ghcr.io/devcontainers/features/github-cli:1": {},
-          "ghcr.io/devcontainers/features/aws-cli:1": {}
+          "ghcr.io/devcontainers/features/github-cli:1": {}
+          // "ghcr.io/devcontainers/features/aws-cli:1": {}
        }
 
 }
